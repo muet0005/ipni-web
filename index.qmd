@@ -14,12 +14,8 @@ about:
 
 Welcome to the **Integrative and Precision Neuroimaging (IPNI) Lab**. 
 
-We focus on [insert core mission statement, e.g., developing advanced neuroimaging biomarkers, mapping brain networks, etc.]. 
+Info coming soon!
 
 ## News
-* **Sept 2026:** New paper published in *NeuroImage*!
-* **Aug 2026:** Welcome to our new PhD student, [Name].
 
 ## Contact
-**Location:** [Your University/Institute Name]  
-**Address:** [Street Address, City, Country]

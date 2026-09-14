@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Integrative and Precision Neuroimaging Lab",
+    "section": "",
+    "text": "Welcome to the Integrative and Precision Neuroimaging (IPNI) Lab.\nInfo coming soon!"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Integrative and Precision Neuroimaging Lab",
+    "section": "News",
+    "text": "News"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Integrative and Precision Neuroimaging Lab",
+    "section": "Contact",
+    "text": "Contact"
+  }
+]

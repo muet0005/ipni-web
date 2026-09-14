@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "IPNI Lab"
+  description: "Integrative and Precision Neuroimaging Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research
+        menu:
+          - text: "Projects"
+            href: projects.qmd
+          - text: "Funding"
+            href: funding.qmd
+          - text: "Publications"
+            href: publications.qmd
+      - text: People
+        menu:
+          - text: "Staff"
+            href: staff.qmd
+          - text: "Postdocs"
+            href: postdocs.qmd
+          - text: "PhD Students"
+            href: phds.qmd
+          - text: "Alumni"
+            href: alum.qmd
+      - href: data.qmd
+        text: Data
+      - href: tools.qmd
+        text: Tools
+    right:
+      - icon: github
+        href: https://github.com/your-github-username
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

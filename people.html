@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>people – IPNI Lab</title>
+<title>Our Team – IPNI Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,7 +75,121 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-postdocs-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-postdocs-list'] = new List('listing-postdocs-list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-phd-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-phd-list'] = new List('listing-phd-list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-staff-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-staff-list'] = new List('listing-staff-list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -100,6 +216,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./lab.html">
+ <span class="dropdown-text">Lab Info</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./people.html">
+ <span class="dropdown-text">People</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Research</span>
     </a>
@@ -118,29 +249,6 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-people" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">People</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-people">    
-        <li>
-    <a class="dropdown-item" href="./staff.html">
- <span class="dropdown-text">Staff</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./postdocs.html">
- <span class="dropdown-text">Postdocs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./phds.html">
- <span class="dropdown-text">PhD Students</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./alum.html">
- <span class="dropdown-text">Alumni</span></a>
-  </li>  
-    </ul>
-  </li>
   <li class="nav-item">
     <a class="nav-link" href="./data.html"> 
 <span class="menu-text">Data</span></a>
@@ -152,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/your-github-username"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/muet0005"> <i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -167,17 +275,368 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
+  <li><a href="#staff" id="toc-staff" class="nav-link" data-scroll-target="#staff">Staff</a></li>
+  <li><a href="#postdocs-researchers" id="toc-postdocs-researchers" class="nav-link" data-scroll-target="#postdocs-researchers">Postdocs &amp; Researchers</a></li>
+  <li><a href="#phd-students" id="toc-phd-students" class="nav-link" data-scroll-target="#phd-students">PhD Students</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Our Team</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="principal-investigator" class="level2">
+<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img src="images/people/ryan-muetzel.jpg" class="img-fluid" style="border-radius: 50%;" width="200"></p>
+</div><div class="column" style="width:70%;">
+<p><strong>Ryan Muetzel</strong><br>
+<em>Principal Investigator</em><br>
+[Short bio or research interests here.]</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="staff" class="level2">
+<h2 class="anchored" data-anchor-id="staff">Staff</h2>
+<div id="listing-staff-list" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1789723230469" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/elivana-anes.html" class="no-external">
+
+<img loading="lazy" src="images/people/elivana-anes.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/elivana-anes.html" class="no-external">Elivana Anes</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/elivana-anes.html" class="no-external">Administrative Associate</a>
+</div>
+<div class="delink listing-description"><a href="./people/elivana-anes.html" class="no-external">
+<p>Research: Keepin’ the wheels on!</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/elivana-anes.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1789723210515" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/jessica-wijngaarden.html" class="no-external">
+
+<img loading="lazy" src="images/people/jessica-wijngaarden.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/jessica-wijngaarden.html" class="no-external">Jessica Wijngaarden</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/jessica-wijngaarden.html" class="no-external">Neuroimaging Data Manager</a>
+</div>
+<div class="delink listing-description"><a href="./people/jessica-wijngaarden.html" class="no-external">
+<p>Research: Keepin’ us organized!</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/jessica-wijngaarden.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1789723180773" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/serena-defina.html" class="no-external">
+
+<img loading="lazy" src="images/people/serena-defina.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/serena-defina.html" class="no-external">Serena Defina</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/serena-defina.html" class="no-external">Data Scientist</a>
+</div>
+<div class="delink listing-description"><a href="./people/serena-defina.html" class="no-external">
+<p>Research: Knower of everything</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/serena-defina.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="postdocs-researchers" class="level2">
+<h2 class="anchored" data-anchor-id="postdocs-researchers">Postdocs &amp; Researchers</h2>
+<div id="listing-postdocs-list" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1789735895466" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<div class="thumbnail"><a href="./people/caro-gaiser.html" class="no-external">
+
+<img loading="lazy" src="images/people/carolin-gaiser.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/caro-gaiser.html" class="no-external">Carolin Gaiser</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/caro-gaiser.html" class="no-external">Postdoctoral Researcher, Lead Cerebellar Neuroimaging</a>
+</div>
+<div class="delink listing-description"><a href="./people/caro-gaiser.html" class="no-external">
+<p>Research: Cerebellar Neuroimaging</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/caro-gaiser.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1789723088088" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/bing-xu.html" class="no-external">
+
+<img loading="lazy" src="images/people/bing-xu.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/bing-xu.html" class="no-external">Bing Xu</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/bing-xu.html" class="no-external">Postdoctoral Researcher</a>
+</div>
+<div class="delink listing-description"><a href="./people/bing-xu.html" class="no-external">
+<p>Research: Multivariate Techniques and Normative Modelling.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/bing-xu.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1789723163227" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/milan-zarchev.html" class="no-external">
+
+<img loading="lazy" src="images/people/milan-zarchev.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/milan-zarchev.html" class="no-external">Milan Zarchev</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/milan-zarchev.html" class="no-external">Postdoctoral Researcher</a>
+</div>
+<div class="delink listing-description"><a href="./people/milan-zarchev.html" class="no-external">
+<p>Research: Early Life Adversity and Stress</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/milan-zarchev.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<hr>
+</section>
+<section id="phd-students" class="level2">
+<h2 class="anchored" data-anchor-id="phd-students">PhD Students</h2>
+<div id="listing-phd-list" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1789723081221" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/annet-dijkzeul.html" class="no-external">
+
+<img loading="lazy" src="images/people/annet-dijkzeul.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/annet-dijkzeul.html" class="no-external">Annet Dijkzeul</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/annet-dijkzeul.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/annet-dijkzeul.html" class="no-external">
+<p>Research: Causal inference, ADHD</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/annet-dijkzeul.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1789723097719" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/dylan-vd-waal.html" class="no-external">
+
+<img loading="lazy" src="images/people/dylan-vd-waal.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/dylan-vd-waal.html" class="no-external">Dylan van der Waal</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/dylan-vd-waal.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/dylan-vd-waal.html" class="no-external">
+<p>Research: Sex Differences in Autism</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/dylan-vd-waal.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1789723116154" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/eva-borkhuis.html" class="no-external">
+
+<img loading="lazy" src="images/people/eva-borkhuis.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/eva-borkhuis.html" class="no-external">Eva Borkhuis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/eva-borkhuis.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/eva-borkhuis.html" class="no-external">
+<p>Research: Improving Youth Mental Wellbeing</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/eva-borkhuis.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1789723126354" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/hailey-davis.html" class="no-external">
+
+<img loading="lazy" src="images/people/hailey-davis.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/hailey-davis.html" class="no-external">Hailey Davis</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/hailey-davis.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/hailey-davis.html" class="no-external">
+<p>Research: Imaging Genetics</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/hailey-davis.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1789723172663" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/sara-v-ham.html" class="no-external">
+
+<img loading="lazy" src="images/people/sara-v-ham.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/sara-v-ham.html" class="no-external">Sara van Ham</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/sara-v-ham.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/sara-v-ham.html" class="no-external">
+<p>Research: Problematic Internet Use</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/sara-v-ham.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-listing-file-modified-sort="1789723143486" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/isha-bhoendie.html" class="no-external">
+
+<img loading="lazy" src="images/people/isha-bhoendie.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/isha-bhoendie.html" class="no-external">Isha Bhoendie</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/isha-bhoendie.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/isha-bhoendie.html" class="no-external">
+<p>Research: Substance Use Initiation</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/isha-bhoendie.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1789723105368" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="thumbnail"><a href="./people/eloise-geenjaar.html" class="no-external">
+
+<img loading="lazy" src="images/people/eloise-geenjaar.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./people/eloise-geenjaar.html" class="no-external">Eloise Geenjaar</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./people/eloise-geenjaar.html" class="no-external">PhD Student</a>
+</div>
+<div class="delink listing-description"><a href="./people/eloise-geenjaar.html" class="no-external">
+<p>Research: Substance Use Initiation</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./people/eloise-geenjaar.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ipni.nl/phds.html</loc>
-    <lastmod>2026-09-14T08:33:12.461Z</lastmod>
+    <loc>https://ipni.nl/data.html</loc>
+    <lastmod>2026-09-14T08:33:12.452Z</lastmod>
   </url>
   <url>
-    <loc>https://ipni.nl/postdocs.html</loc>
-    <lastmod>2026-09-14T08:33:12.461Z</lastmod>
+    <loc>https://ipni.nl/people/caro-gaiser.html</loc>
+    <lastmod>2026-09-18T12:51:35.466Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/eva-borkhuis.html</loc>
+    <lastmod>2026-09-18T09:18:36.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/serena-defina.html</loc>
+    <lastmod>2026-09-18T09:19:40.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/eloise-geenjaar.html</loc>
+    <lastmod>2026-09-18T09:18:25.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/milan-zarchev.html</loc>
+    <lastmod>2026-09-18T09:19:23.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/hailey-davis.html</loc>
+    <lastmod>2026-09-18T09:18:46.354Z</lastmod>
   </url>
   <url>
     <loc>https://ipni.nl/people.html</loc>
-    <lastmod>2026-09-14T08:33:12.460Z</lastmod>
+    <lastmod>2026-09-18T09:26:07.054Z</lastmod>
   </url>
   <url>
     <loc>https://ipni.nl/about.html</loc>
@@ -18,14 +38,10 @@
   </url>
   <url>
     <loc>https://ipni.nl/index.html</loc>
-    <lastmod>2026-09-14T08:33:12.460Z</lastmod>
+    <lastmod>2026-09-15T07:07:29.362Z</lastmod>
   </url>
   <url>
-    <loc>https://ipni.nl/alum.html</loc>
-    <lastmod>2026-09-14T08:33:12.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ipni.nl/research.html</loc>
+    <loc>https://ipni.nl/projects.html</loc>
     <lastmod>2026-09-14T08:33:12.461Z</lastmod>
   </url>
   <url>
@@ -33,8 +49,16 @@
     <lastmod>2026-09-14T08:33:12.462Z</lastmod>
   </url>
   <url>
-    <loc>https://ipni.nl/projects.html</loc>
+    <loc>https://ipni.nl/research.html</loc>
     <lastmod>2026-09-14T08:33:12.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/alum.html</loc>
+    <lastmod>2026-09-14T08:33:12.452Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/lab.html</loc>
+    <lastmod>2026-09-18T09:04:03.010Z</lastmod>
   </url>
   <url>
     <loc>https://ipni.nl/publications.html</loc>
@@ -45,11 +69,31 @@
     <lastmod>2026-09-14T08:33:12.452Z</lastmod>
   </url>
   <url>
-    <loc>https://ipni.nl/staff.html</loc>
-    <lastmod>2026-09-14T08:33:12.461Z</lastmod>
+    <loc>https://ipni.nl/people/isha-bhoendie.html</loc>
+    <lastmod>2026-09-18T09:19:03.486Z</lastmod>
   </url>
   <url>
-    <loc>https://ipni.nl/data.html</loc>
-    <lastmod>2026-09-14T08:33:12.452Z</lastmod>
+    <loc>https://ipni.nl/people/jessica-wijngaarden.html</loc>
+    <lastmod>2026-09-18T09:20:10.515Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/sara-v-ham.html</loc>
+    <lastmod>2026-09-18T09:19:32.663Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/dylan-vd-waal.html</loc>
+    <lastmod>2026-09-18T09:18:17.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/annet-dijkzeul.html</loc>
+    <lastmod>2026-09-18T09:18:01.221Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/bing-xu.html</loc>
+    <lastmod>2026-09-18T09:18:08.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ipni.nl/people/elivana-anes.html</loc>
+    <lastmod>2026-09-18T09:20:30.469Z</lastmod>
   </url>
 </urlset>

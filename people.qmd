@@ -1,0 +1,58 @@
+---
+title: "Our Team"
+listing:
+  - id: postdocs-list
+    contents: postdocs.yml
+    type: default
+    image-align: left
+    sort: false
+    fields: [image, title, subtitle, description]
+    
+  - id: phd-list
+    contents: phd-students.yml
+    type: default
+    image-align: left
+    sort: false
+    fields: [image, title, subtitle, description]
+
+  - id: staff-list
+    contents: staff.yml
+    type: default
+    image-align: left
+    sort: false
+    fields: [image, title, subtitle, description]
+---
+
+## Principal Investigator
+
+:::: {.columns}
+::: {.column width="30%"}
+![](images/people/ryan-muetzel.jpg){width=200px style="border-radius: 50%;"}
+:::
+::: {.column width="70%"}
+**Ryan Muetzel**  
+*Principal Investigator*  
+[Short bio or research interests here.]
+:::
+::::
+
+---
+
+## Staff
+
+:::{#staff-list}
+:::
+
+---
+
+## Postdocs & Researchers
+
+:::{#postdocs-list}
+:::
+
+---
+
+## PhD Students
+
+:::{#phd-list}
+:::

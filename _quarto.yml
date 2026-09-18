@@ -11,6 +11,12 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: About
+        menu:
+          - text: Lab Info
+            href: lab.qmd 
+          - text: "People"
+            href: people.qmd
       - text: Research
         menu:
           - text: "Projects"
@@ -19,23 +25,13 @@ website:
             href: funding.qmd
           - text: "Publications"
             href: publications.qmd
-      - text: People
-        menu:
-          - text: "Staff"
-            href: staff.qmd
-          - text: "Postdocs"
-            href: postdocs.qmd
-          - text: "PhD Students"
-            href: phds.qmd
-          - text: "Alumni"
-            href: alum.qmd
       - href: data.qmd
         text: Data
       - href: tools.qmd
         text: Tools
     right:
       - icon: github
-        href: https://github.com/your-github-username
+        href: https://github.com/muet0005
         aria-label: GitHub
 
 format:

@@ -9,7 +9,7 @@ about:
       href: mailto:your.email@example.com
     - icon: github
       text: GitHub
-      href: https://github.com/your-github-username
+      href: https://github.com/muet0005
 ---
 
 Welcome to the **Integrative and Precision Neuroimaging (IPNI) Lab**. 

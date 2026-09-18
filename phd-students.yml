@@ -1,29 +1,41 @@
 - title: Annet Dijkzeul
   subtitle: PhD Student
-  description: "Research: [Topic]"
-  image: images/people/annet-dijkzeul.jpg
+  description: "Research: Causal inference, ADHD"
+  image: images/people/annet-dijkzeul.jpeg
+  path: people/annet-dijkzeul.qmd
 
 - title: Dylan van der Waal
   subtitle: PhD Student
-  description: "Research: Mapping brain networks"
-  image: images/people/dylan-vd-waal.jpeg
+  description: "Research: Sex Differences in Autism"
+  image: images/people/dylan-vd-waal.jpg
+  path: people/dylan-vd-waal.qmd
 
 - title: Eva Borkhuis
-  subtitle: Postdoctoral Researcher
-  description: "Research: Pipeline development"
-  image: images/people/eva-borkhuis.png
+  subtitle: PhD Student
+  description: "Research: Improving Youth Mental Wellbeing"
+  image: images/people/eva-borkhuis.jpg
+  path: people/eva-borkhuis.qmd
 
 - title: Hailey Davis
-  subtitle: Postdoctoral Researcher
-  description: "Research: Pipeline development"
-  image: images/people/hailey.png
+  subtitle: PhD Student
+  description: "Research: Imaging Genetics"
+  image: images/people/hailey-davis.jpeg
+  path: people/hailey-davis.qmd
+
+- title: Sara van Ham
+  subtitle: PhD Student
+  description: "Research: Problematic Internet Use"
+  image: images/people/sara-v-ham.jpeg
+  path: people/sara-v-ham.qmd
 
 - title: Isha Bhoendie
-  subtitle: Postdoctoral Researcher
-  description: "Research: Pipeline development"
-  image: images/people/isha-bhoendie.png
+  subtitle: PhD Student
+  description: "Research: Substance Use Initiation"
+  image: images/people/isha-bhoendie.jpeg
+  path: people/isha-bhoendie.qmd
 
 - title: Eloise Geenjaar
-  subtitle: Postdoctoral Researcher
-  description: "Research: Pipeline development"
-  image: images/people/eloise-geenjaar.png
+  subtitle: PhD Student
+  description: "Research: Substance Use Initiation"
+  image: images/people/eloise-geenjaar.jpeg
+  path: people/eloise-geenjaar.qmd

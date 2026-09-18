@@ -1,0 +1,44 @@
+---
+title: "Carolin Gaiser"
+subtitle: "Postdoctoral Fellow"
+image: "../images/people/carolin-gaiser.jpg"
+about:
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:c.gaiser@erasmusmc.nl
+    - icon: twitter
+      text: X (Twitter)
+      href: https://twitter.com/yourhandle
+    - icon: github
+      text: GitHub
+      href: https://github.com/yourhandle
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/yourhandle
+---
+
+## Biography
+
+Dr. Gaiser is a Postdoctoral Fellow in the Integrative and Precision Neuroimaging (IPNI) Lab. Her research primarily focuses on causal inference and its applications to understanding ADHD. 
+
+Before joining the lab, she completed her [Degree] at [University], where she specialized in [Topic].
+
+## Education
+
+- **Ph.D. in Neuroscience]** | Erasmus University Rotterdam | 2022
+- **M.Sc. in Neuroscience]** | Erasmus MC University Medical Center | 2022
+- **B.Sc. in Psychology** | Erasmus University Rotterdam | 2020
+
+## Research Interests
+
+- Cerebellar Neuorimaging
+- Brain Stimulation
+- Dizzy the Dog
+
+## Selected Publications
+
+- **Gaiser, C.**, et al. (2025). *Cerebellar Normative Models [DOI link]

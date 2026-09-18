@@ -1,0 +1,17 @@
+- title: Elivana Anes
+  subtitle: Administrative Associate
+  description: "Research: Keepin' the wheels on!"
+  image: images/people/elivana-anes.jpg
+  path: people/elivana-anes.qmd
+
+- title: Jessica Wijngaarden
+  subtitle: Neuroimaging Data Manager
+  description: "Research: Keepin' us organized!"
+  image: images/people/jessica-wijngaarden.jpg
+  path: people/jessica-wijngaarden.qmd
+
+- title: Serena Defina
+  subtitle: Data Scientist
+  description: "Research: Knower of everything"
+  image: images/people/serena-defina.jpeg
+  path: people/serena-defina.qmd

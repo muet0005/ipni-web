@@ -27,7 +27,7 @@ listing:
 
 :::: {.columns}
 ::: {.column width="30%"}
-![](images/people/ryan-muetzel.jpg){width=200px style="border-radius: 50%;"}
+![](images/people/ryan-muetzel.jpg){width=200px}
 :::
 ::: {.column width="70%"}
 **Ryan Muetzel**  

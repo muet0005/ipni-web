@@ -1,0 +1,21 @@
+---
+title: "Funding"
+listing:
+  - id: funding-list
+    contents: funding.yml
+    type: default
+    image-align: left
+    sort: false
+    fields: [image, title, subtitle, description]
+
+---
+
+
+
+
+## Current Funding
+
+:::{#funding-list}
+:::
+
+---

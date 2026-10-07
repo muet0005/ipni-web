@@ -2,16 +2,19 @@
   subtitle: Postdoctoral Researcher, Lead Cerebellar Neuroimaging
   description: "Research: Cerebellar Neuroimaging"
   image: images/people/carolin-gaiser.jpg
+  image-shape: round
   path: people/caro-gaiser.qmd
 
 - title: Bing Xu
   subtitle: Postdoctoral Researcher
   description: "Research: Multivariate Techniques and Normative Modelling."
   image: images/people/bing-xu.jpeg
+  image-shape: round
   path: people/bing-xu.qmd
 
 - title: Milan Zarchev
   subtitle: Postdoctoral Researcher
   description: "Research: Early Life Adversity and Stress"
   image: images/people/milan-zarchev.png
+  image-shape: round
   path: people/milan-zarchev.qmd

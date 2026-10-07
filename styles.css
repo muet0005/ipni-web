@@ -1,1 +1,9 @@
 /* css styles */
+.about-image img, 
+.quarto-listing-image img, 
+.listing-image img, 
+.thumbnail img {
+    object-fit: cover !important;
+    aspect-ratio: 1 / 1 !important;
+    border-radius: 50% !important;
+}
